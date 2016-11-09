@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clEmail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_destino" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editDestino"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="mail@gmail.com"
+                android:text="mail@gmail.com"></EditText>
+
+            <Button
+                android:id="@+id/btnClearDestino"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dip"
+                android:background="@android:drawable/ic_delete"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="clear" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_asunto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editAsunto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="Asunto del correo"
+                android:text="Test Asunto"></EditText>
+
+            <Button
+                android:id="@+id/btnClearAsunto"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dip"
+                android:background="@android:drawable/ic_delete"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="clear" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_mensaje" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editMsj"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="Mensaje del correo"
+                android:lines="2"
+                android:text="Test mensaje"></EditText>
+
+            <Button
+                android:id="@+id/btnClearMensaje"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dip"
+                android:background="@android:drawable/ic_delete"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="clear" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_remitente" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editOrigen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="mail@gmail.com"
+                android:text="chuchhin16@gmail.com"></EditText>
+
+            <Button
+                android:id="@+id/btnClearOrigen"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dip"
+                android:background="@android:drawable/ic_delete"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="clear" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_password" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:text="myPassword*"></EditText>
+
+            <Button
+                android:id="@+id/btnClearPass"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="5dip"
+                android:background="@android:drawable/ic_delete"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="clear" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_guardar" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_enviar" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SendMyPhoto</string>
+    <string name="action_bar_text">Send My Photo</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="nombre_carpeta_temporal">temp</string>
+    <string name="nombre_archivo_temporal">temp.temp</string>
+    <string name="nombre_video_temporal">vtemp.temp</string>
+    <string name="nombre_archivo_enviado">img.jpg</string>
+    <string name="toast_error_imagen">Hubo un problema al guardar la imagen</string>
+    <string name="txt_destino">Correo destino:</string>
+    <string name="txt_remitente">Correo origen:</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_asunto">Asunto:</string>
+    <string name="txt_mensaje">Mensaje:</string>
+    <string name="btn_enviar">Probar envio</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="txt_actionBar">Configuración cuenta</string>
+    <string name="txt_ajustes">Ajustes</string>
+    <string name="txt_camara">Camara</string>
+    <string name="txt_video">Video</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="text_hint_desc">Texto del mensaje</string>
+    <string name="text_asunto">Asunto</string>
+</resources>
