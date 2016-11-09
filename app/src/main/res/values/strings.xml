@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">SendMyPhoto</string>
-    <string name="action_bar_text">Send My Photo</string>
+    <string name="app_name">Send Me</string>
+    <string name="action_bar_text">Envía tus fotos</string>
     <string name="title_activity_splash">Splash</string>
     <string name="nombre_carpeta_temporal">temp</string>
     <string name="nombre_archivo_temporal">temp.temp</string>
@@ -18,7 +18,7 @@
     <string name="txt_ajustes">Ajustes</string>
     <string name="txt_camara">Camara</string>
     <string name="txt_video">Video</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main2">Send Me</string>
     <string name="text_hint_desc">Texto del mensaje</string>
     <string name="text_asunto">Asunto</string>
 </resources>

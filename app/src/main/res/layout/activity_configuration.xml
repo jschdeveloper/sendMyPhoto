@@ -126,7 +126,7 @@
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorPrimary"
                 android:hint="mail@gmail.com"
-                android:text="chuchhin16@gmail.com"></EditText>
+                android:text="mail@gmail.com"></EditText>
 
             <Button
                 android:id="@+id/btnClearOrigen"
