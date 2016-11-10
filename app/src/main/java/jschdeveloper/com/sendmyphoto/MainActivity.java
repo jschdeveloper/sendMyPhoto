@@ -64,9 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
         checkPermisos();
 
-        //SharedPreferences temp = utils.getPreferences();
-        //temp.edit().clear().commit();
-        //checkInfo(utils.getSP());
 
         ruta = Environment.getExternalStorageDirectory() + File.separator;
         linFoto.setOnClickListener(new View.OnClickListener() {
